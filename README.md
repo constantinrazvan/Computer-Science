@@ -2,7 +2,7 @@
 
 This is a repository where I put the projects I do along taking the Computer Science Path from Codecademy. 
 
-##Q&A 
+## Q&A 
 
 Q: Why I did this? 
 A1: For helping other people who probably will find this repository helpful. 
