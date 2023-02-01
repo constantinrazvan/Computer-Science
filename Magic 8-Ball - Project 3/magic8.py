@@ -1,16 +1,31 @@
-# This is a sample Python script.
+import random
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+name = "Razvan"
+question = "Will I win the lottery?"
+answer = ""
 
+random_number = random.randint(1, 9)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+if random_number == 1:
+    answer = "Yes - definitely"
+elif random_number == 2:
+    answer = "It is decidedly so"
+elif random_number == 3:
+    answer = "Without a doubt"
+elif random_number == 4:
+    answer = "Reply hazy, try again"
+elif random_number == 5:
+    answer = "Ask again later"
+elif random_number == 6:
+    answer = "Better not tell you now"
+elif random_number == 7:
+    answer = "My sources say no"
+elif random_number == 8:
+    answer = "Outlook not so good"
+elif random_number == 9:
+    answer = "Very doubtful"
+else:
+    answer = "Error"
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(name + " asks: " + question)
+print("Magic 8 Ball's answer: " + answer)
